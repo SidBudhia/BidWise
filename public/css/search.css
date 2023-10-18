@@ -1,0 +1,30 @@
+.searchBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+}
+
+.searchBar form {
+    width: 25%;
+    margin: 3px;
+}
+
+.textInputDiv input, .textInputDiv select {
+    font-size: 15px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 5px;
+}
+
+@media (max-width: 800px) {
+    .searchBar {
+        display: block;
+    }
+    .searchBar form {
+        width: 100%;
+    }
+}
